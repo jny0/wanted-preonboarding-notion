@@ -1,5 +1,6 @@
-package com.example.wantedpreonboarding;
+package com.example.wantedpreonboarding.domain.page.entity;
 
+import com.example.wantedpreonboarding.domain.page.entity.Page;
 import jakarta.persistence.*;
 import lombok.Getter;
 

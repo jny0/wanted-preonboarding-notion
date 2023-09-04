@@ -1,4 +1,4 @@
-package com.example.wantedpreonboarding;
+package com.example.wantedpreonboarding.domain.page.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,7 +14,7 @@ public class PageDto {
     private String title;
     private String content;
 
-    private List<Long> subPages;
+    private List<SubPageDto> subPages;
 
-    private List<Long> breadCrumbs;
+    private List<String> breadCrumbs;
 }

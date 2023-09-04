@@ -1,4 +1,4 @@
-package com.example.wantedpreonboarding;
+package com.example.wantedpreonboarding.domain.page.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
